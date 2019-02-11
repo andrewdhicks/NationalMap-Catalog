@@ -2,6 +2,61 @@
 Change Log
 ==========
 
+### 2018-12-17-updated-2019-01-29
+
+* Make www.data.vic.gov.au use https and CORS instead of going through the proxy.
+* Add new Digital Earth Australia National Intertidal Digital Elevation Model (NIDEM) to the "National Datasets -> Surface Water and Marine -> Tidal" group.
+* Replace existing layers with new Digital Earth Australia Water Observations from Space layers in "National Datasets -> Surface Water and Marine -> Water Observations from Space".
+* Add new Digital Earth Australia Daily Landsat imagery to the group "National Datasets -> Satellite Imagery -> Landsat Daily Aggregate Terrain Corrected Surface Reflectance".
+* Add new Digital Earth Australia group of layers in "National Datasets -> Surface Water and Marine -> Water Observations from Space -> Seasonal Summaries".
+
+### 2018-12-17
+
+* No changes in this release.
+
+### 2018-11-20
+
+* Added Latrobe City Council to local council list for data.gov.au query.
+
+### 2018-10-12-updated-2018-10-24
+
+* Change visualisation of "National Datasets -> Health -> Primary Health Networks" to colour in each region with a different colour.
+* Improve look and feel of layers in "National Datasets -> National Boundaries".
+
+### 2018-10-11
+
+* No changes in this release.
+
+### 2018-09-14-updated-2018-10-15
+
+* Updated the Digital Earth Australia layers in "National Datasets -> Satellite Imagery -> Sentinel-2 A/B Near Real-Time (NRT) terrain corrected surface reflectance" to use a new service endpoint which has a 90 day sliding window of imagery.
+* Add the layer "National Datasets -> Surface Water and Marine -> Water Observations from Space -> Daily Water Observation Feature Layer" from Digital Earth Australia.
+* Add the layer "National Datasets -> Satellite Imagery -> Barest Earth -> Barest Earth 25m (Landsat 8)" from Digital Earth Australia.
+* Add the layers "Multi-Scale Topographic Position" and "Weathering Intensity" from Digital Earth Australia to the "National Datasets -> Land" group.
+* Add CORS support and change to using TLS for NCI GSKY based Digital Earth Australia layers.
+
+### 2018-09-14-updated-2018-10-04
+
+* Temporarily remove the ACT Mapi layers while we work around a problem.
+
+### 2018-09-14-updated-2018-10-03
+
+* Add Geomedian layers from Digital Earth Australia to "National Datasets -> Satellite Imagery".
+* Add Mangrove Canopy Cover from Digital Earth Australia to "National Datasets -> Surface Water and Marine -> Tidal".
+* Replace the existing layers in "National Datasets -> Surface Water and Marine -> Water Observations from Space" with new updated layers from Digital Earth Australia.
+
+### 2018-07-16-updated-2018-08-14
+
+* Set Digital Earth Australia AWS based layers to be accessed directly using CORS.
+
+### 2018-07-16-updated-2018-08-10
+
+* Added Sentinel-2 satellite imagery to "National Datasets -> Satellite Imagery" from Digital Earth Australia.
+
+### 2018-07-16-updated-2018-07-23
+
+* Added `Postal Areas (2016)` under `National Boundaries`.
+
 ### 2018-05-16-updated-2018-06-06
 
 * Updated the Telecommunications in New Developments layer to point to the correct CKAN resourceID.
